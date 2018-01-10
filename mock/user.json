@@ -1,0 +1,22 @@
+{
+    "code": 200,
+    "data": {
+        "name": "denglingbo",
+        "age": "12",
+        "level": 5,
+        "city": "Chengdu",
+        "admin": 1,
+        "menu": [
+            {
+                "code": "system",
+                "name": "系统管理",
+                "submenu": [
+                    {
+                        "code": "users",
+                        "name": "用户管理"
+                    }
+                ]
+            }
+        ]
+    }
+}
