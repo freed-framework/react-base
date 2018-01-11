@@ -23,18 +23,7 @@ import system from './system';
  * 前端 使用 key 从后端数据中拿相应的数据进行展示
  */
 const routes = [
-    {
-        key: 'home',
-        exact: true,
-        path: '/',
-        component: () => (
-            <Route
-                path="/"
-                exact
-                render={() => <Bundle load={Home}>{(App) => <App />}</Bundle>}
-            />
-        )
-    }, system
+    system
 ];
 
 export default routes;
