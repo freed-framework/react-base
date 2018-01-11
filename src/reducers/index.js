@@ -14,7 +14,7 @@ import user from './user';
 import book from './book';
 
 /**
- * yt-init package inject part
+ * init package inject part
  *
  * eg: import {module name} from './{path}';
  */
@@ -31,7 +31,7 @@ export default Immutable.fromJS({
     book,
 
     /**
-     * yt-init package inject part
+     * init package inject part
      */
     /* START-INJECT-<REDUCERS> */
     /* END-INJECT-<REDUCERS> */
